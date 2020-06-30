@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 #  -*- coding: utf-8 -*-
-#
-# LER NOTICIAS DO SITE  NSCTOTAL.COM.BR  - SEM CADASTRO OU ASSINATURA
 
-
-import sys, os
+import requests
 from tkinter import *
 
 def bt_click():   
@@ -14,7 +11,7 @@ def bt_click():
     else:
         import webbrowser
         url = (edURL.get())
-        response = os.popen("curl " + url).read()
+        response = requests.get(url).text
         arquivo = open("temp.html", "w")
         arquivo.write(response)
         arquivo.close
@@ -41,3 +38,5 @@ edURL.place(x=130, y=20)
 
 btGerar = Button(janela, width=14, text="Gerar...", command=bt_click)
 btGerar.place(x=280, y=70)
+
+janela.mainloop()

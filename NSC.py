@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 #  -*- coding: utf-8 -*-
+'''
+Ler notícias do portal NSC, sem ter cadastro ou assinatura
+Apenas para estudo :)
+'''
 
 import requests
 from tkinter import *

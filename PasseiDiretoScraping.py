@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+#  -*- coding: utf-8 -*-
+'''
+Ver arquivos do portal PasseiDireto, sem ter cadastro ou assinatura premium
+Apenas para estudo :)
+'''
+
 from bs4 import BeautifulSoup
 from tkinter import *
 import requests, sys, os

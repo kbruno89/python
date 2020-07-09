@@ -2,6 +2,7 @@
 #  -*- coding: utf-8 -*-
 '''
 Ver arquivos do portal PasseiDireto, sem ter cadastro ou assinatura premium
+Em desenvolvimento...
 Apenas para estudo :)
 '''
 

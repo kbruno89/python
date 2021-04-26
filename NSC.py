@@ -32,10 +32,6 @@ janela.title("..:: NSC Notícias FULL ::..")
 
 lb1 = Label(janela, text="Insira a URL :")
 lb1.place(x=30, y=20)
-lb2 = Label(janela, text="#ZELOTES")
-lb2.place(x=652, y=80)
-lb3 = Label(janela, text="#OPERACAOZELOTES")
-lb3.place(x=580, y=60)
 
 edURL = Entry(janela, width=73)
 edURL.place(x=130, y=20)
